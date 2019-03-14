@@ -1,7 +1,7 @@
 package com.lml.boot.dubbo.provider;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.lml.boot.dubbo.interfaces.DemoService;
-import org.springframework.stereotype.Service;
 
 @Service
 public class DemoServiceImpl implements DemoService {
