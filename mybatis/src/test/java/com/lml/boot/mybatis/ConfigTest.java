@@ -12,7 +12,7 @@ import java.sql.Connection;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DruidConfigTest {
+public class ConfigTest {
 
     @Resource
     DataSource dataSource;
