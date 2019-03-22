@@ -14,4 +14,5 @@ public interface CityMapper {
 
     @Select("SELECT id, name, state, country FROM city WHERE id = #{id}")
     City findById(long id);
+
 }
