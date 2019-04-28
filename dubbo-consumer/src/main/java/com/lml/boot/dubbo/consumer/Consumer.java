@@ -3,6 +3,9 @@ package com.lml.boot.dubbo.consumer;
 import com.lml.boot.dubbo.interfaces.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * -Djava.net.preferIPv4Stack=true
+ */
 public class Consumer {
     public static void main(String[] args) throws Exception {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"consumer.xml"});
